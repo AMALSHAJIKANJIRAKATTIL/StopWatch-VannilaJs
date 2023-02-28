@@ -1,0 +1,64 @@
+*{
+    background-color: violet;
+}
+
+
+
+.Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95vw;
+    height:70vh;
+}
+
+.stopwatch{
+    font-size: 8em;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+button{
+    width: 200px;
+    height:100px;
+}
+
+#start{
+    border: 3px solid green;
+    color: green;
+}
+
+
+#pause{
+    border: 3px solid red;
+    color: red;
+}
+
+#reset{
+    border: 3px solid yellow;
+    color: yellow;
+}
+
+#cast{
+    border: 3px solid black;
+    color: black;
+}
+
+button:hover{
+    background: cyan;
+}
+
+
+
+#castingScreen{
+    text-align: center;
+    color: grey;
+    font-size: 3rem;
+}
